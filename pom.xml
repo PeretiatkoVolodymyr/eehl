@@ -10,6 +10,7 @@
     <version>0.1-SNAPSHOT</version>
     <modules>
         <module>backend</module>
+        <module>jdbc</module>
     </modules>
 
 
