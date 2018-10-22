@@ -1,5 +1,5 @@
 
-import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
+
 import entity.Skill;
 import entity.Tool;
 import entity.User;
@@ -234,6 +234,7 @@ public class BasicJdbcDemo {
      * @throws ClassNotFoundException the class not found exception
      */
     private static Connection connection() throws SQLException, ClassNotFoundException {
+
         MysqlDataSource dataSource = new MysqlDataSource();
         dataSource.setUrl("jdbc:mysql://localhost:3306/userdb");
         dataSource.setUser("root");
