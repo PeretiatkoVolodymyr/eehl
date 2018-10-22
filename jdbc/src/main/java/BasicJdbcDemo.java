@@ -236,7 +236,7 @@ public class BasicJdbcDemo {
     private static Connection connection() throws SQLException, ClassNotFoundException {
 
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb", "root", "10chul11");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb", "root", "");
         conn.setAutoCommit(true);
         return conn;
     }
