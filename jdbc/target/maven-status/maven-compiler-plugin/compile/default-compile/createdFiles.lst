@@ -1,0 +1,10 @@
+entity/ServiceEvent.class
+entity/Project.class
+entity/Skill.class
+entity/Comment.class
+entity/Tool.class
+entity/Donation.class
+entity/User.class
+H2jdbcCreateDemo.class
+BasicJdbcDemo.class
+entity/Community.class
